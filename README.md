@@ -6,7 +6,7 @@ Calculating loss with categorical cross entropy
     Is used to used to measure the difference bwteen predictied class probabilites and actual target class probabilities
 
 - How It Works
-      - Predicted Probabilites: Is a classification problem, the neural network predicts the probabilites of each class for a given input. They are calculated using the softmax activation function ensuring that they have the sum of 1
+      - Predicted Probabilites: Is a classification problem, the neural network predicts the probabilites of each class for a given input. They are calculated using the softmax activation function ensuring that they have the sum of 1    
       - Target Class Proababilites: Creating a one hot encoded vector where the true label (input sample) is assigned a probabiltiy of 1 and all the other classes a probability of 0
       - Loss Calculation: Categorical Cross-Entropy calculates the difference between the predicted probabilities and the target class proabbabilties for each sample  
       - Total Loss:  The total loss in the datatset is then averaged to obtain the overall loss of the entire dataset. This is what you optimize during the training of the model to update its parameters
